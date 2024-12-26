@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className='bg-gray-900'>
-    <footer className=" max-w-4xl mx-auto text-white py-8">
+    <footer className=" max-w-5xl mx-auto text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* About Us Section */}
         <div>
@@ -20,8 +20,8 @@ const Footer = () => {
         </div>
 
         {/* Pages Section */}
-        <div>
-          <h3 className="text-lg font-semibold text-orange-500 mb-2">[ <span className='text-white'>PAGES</span>   ]</h3>
+        <div className='lg:ml-10 ml-0'>
+          <h3 className="text-lg font-semibold  text-orange-500 mb-2">[ <span className='text-white'>PAGES</span>   ]</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:text-orange-500 transition">
@@ -76,7 +76,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-8 text-center">
-        <div className="flex justify-end space-x-4 mb-4">
+        <div className="flex ml-0 lg:ml-[700px] mt-3 space-x-4 mb-4">
           <a
             href="#"
             className="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition"
@@ -96,7 +96,7 @@ const Footer = () => {
             <FaInstagram className="text-white" />
           </a>
         </div>
-        <p className="text-sm text-left">
+        <p className="text-sm mt-0 lg:-mt-10 text-left">
           &copy; Copyright Gulf Riders. All rights reserved
         </p>
       </div>
